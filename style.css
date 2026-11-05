@@ -8,3 +8,5 @@
 .achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:800px){.achievement-grid{grid-template-columns:1fr}}
 
 .achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:800px){.achievement-grid{grid-template-columns:1fr}}
+
+.achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:800px){.achievement-grid{grid-template-columns:1fr}}
