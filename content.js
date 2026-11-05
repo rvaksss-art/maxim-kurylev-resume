@@ -301,6 +301,11 @@ window.CONTENT={
         "value": "55",
         "title": "Distribution centres",
         "text": "Automated forwarding instructions and receipts went live. My contribution: source identification for 30+ fields, data mapping and UAT."
+      },
+      {
+        "value": "CRM · 10.2026",
+        "title": "MVP on the company server",
+        "text": "Moved the CRM I built from development to a user pilot. Gathering feedback, refining requirements, prioritising improvements and verifying new features before release."
       }
     ],
     "skillGroups": [

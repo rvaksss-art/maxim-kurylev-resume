@@ -4,3 +4,5 @@
 
 
 .brand-portrait{width:56px;height:56px;object-fit:cover;border-radius:50%;border:1px solid var(--accent);flex-shrink:0}.project p,.contact-desc{white-space:pre-line}.hero .identity{font-weight:500}.contact-links strong{overflow-wrap:anywhere}@media(max-width:800px){.brand-portrait{width:44px;height:44px}}@media(max-width:380px){.brand{gap:8px;font-size:8px}.brand-portrait{width:36px;height:36px}}
+
+.achievement-grid{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:800px){.achievement-grid{grid-template-columns:1fr}}
