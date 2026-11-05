@@ -125,6 +125,11 @@
         "value": "55",
         "title": "Распределительных центров",
         "text": "Введено в эксплуатацию автоматическое формирование поручения экспедитору и экспедиторской расписки. Мой вклад — определение источников 30+ реквизитов, маппинг данных и UAT."
+      },
+      {
+        "value": "+60%",
+        "title": "Скорость ответов клиентам",
+        "text": "По результатам пилота CRM скорость ответов клиентам выросла на 60%. Самостоятельно разработал MVP с AI-assisted разработкой и лично запустил CRM на сервере компании. Пилот идёт с октября 2026: собираю обратную связь, уточняю требования, приоритизирую доработки и проверяю функции перед выпуском."
       }
     ],
     "skillGroups": [
@@ -306,6 +311,11 @@
         "value": "CRM · 10.2026",
         "title": "MVP on the company server",
         "text": "Moved the CRM I built from development to a user pilot. Gathering feedback, refining requirements, prioritising improvements and verifying new features before release."
+      },
+      {
+        "value": "+60%",
+        "title": "Customer response speed",
+        "text": "During the CRM pilot, customer response speed increased by 60%. Built the MVP myself with AI-assisted development and personally launched the CRM on the company server. The pilot has been running since October 2026: gathering feedback, refining requirements, prioritising improvements and checking features before release."
       }
     ],
     "skillGroups": [
