@@ -48,3 +48,11 @@ html[data-theme=light] .orb-core{background:radial-gradient(ellipse at var(--shi
 html[data-theme=light] .is-engaged .orb-core{border-color:#28766070;box-shadow:inset 0 1px 2px #fff,0 0 40px #2876600c}
 @media(max-width:800px){.orbit-stage{inset:7% -1%}.orb-core{width:40%;aspect-ratio:1.25}.orb-core>span{font-size:8px;letter-spacing:2px}.orb-core>b{font-size:32px}.orbit-label{font-size:8px;padding:7px 12px}.orbit-label.discovery{left:8%;top:17%}.orbit-label.delivery{right:8%;bottom:17%}.orbital-hint{bottom:5%;font-size:6px}.motion-toggle{width:44px;height:44px;flex-shrink:0}.visual-live{gap:6px}.visual-top{top:0}}
 @media(prefers-reduced-motion:reduce){.motion-toggle{display:none}.orb-core{transform:translate(-50%,-50%);will-change:auto}.is-pulsing .orb-core{border-color:var(--accent)}.is-pulsing .orbit-label{border-color:var(--accent)}}
+
+/* Project invitations */
+#project-list .actions .text-link{position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 19px;border:1px solid var(--accent);border-radius:28px;font-size:15px;font-weight:600;letter-spacing:.1px;color:var(--accent);background:var(--glass);transition:transform .25s,border-color .25s,box-shadow .35s}
+#project-list .actions .text-link:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,transparent 15%,#9ed5bd20 38%,#d4bf982b 49%,#9ed5bd20 60%,transparent 80%);transform:translateX(-110%);pointer-events:none}
+#project-list .actions .text-link:hover{transform:translateY(-2px);box-shadow:0 5px 22px #9ed5bd16;border-color:var(--gold)}
+#project-list .actions .text-link:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(prefers-reduced-motion:no-preference){#project-list .actions .text-link:before{animation:project-shimmer 7s ease-in-out infinite}#project-list .actions .text-link:nth-child(2):before{animation-delay:1.3s}@keyframes project-shimmer{0%,55%{transform:translateX(-110%)}85%,100%{transform:translateX(110%)}}}
+@media(prefers-reduced-motion:reduce){#project-list .actions .text-link:before{transform:none;opacity:.5}}
