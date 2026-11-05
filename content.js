@@ -240,10 +240,10 @@ window.CONTENT={
         "company": "Nexus Logistics",
         "title": "Product Owner",
         "bullets": [
-          "Leading an international logistics CRM from user research and process design to MVP delivery and a user pilot.",
-          "Defining and prioritising requirements, business rules, user scenarios and acceptance criteria. Developing the backlog from user feedback.",
-          "Designing workflows for partners, customer requests, deals, tasks, documents and team communication. Verifying business logic and changes before release.",
-          "Organised the move from local development to a Docker and PostgreSQL server deployment, including backups, migrations, health checks and recovery preserving user data."
+          "Built the international logistics CRM myself with AI-assisted development, from user research and process design to a working MVP.",
+          "Personally deployed and launched the CRM on the production server (Docker, PostgreSQL), setting up migrations, backups, health checks and data-preserving recovery. Running a user pilot.",
+          "Independently define and prioritise requirements, business rules, user scenarios and acceptance criteria. Evolve the product from user feedback.",
+          "Design CRM workflows for partners, customer requests, deals, tasks, documents and team communication. Verify business logic and changes before release."
         ]
       },
       {
@@ -325,7 +325,7 @@ window.CONTENT={
       {
         "tag": "CRM · PRODUCT OWNERSHIP",
         "name": "NEXUS CRM",
-        "text": "Internal CRM for international logistics: partners, customer requests, deals, tasks, documents and team communication. The server-deployed MVP is in a user pilot.\n\nMy role: user research, process and requirements design, backlog management, change verification and server deployment coordination. Further development follows pilot feedback.\n\nThe public demo is separate from the operational system.",
+        "text": "Independently built CRM for international logistics: partners, customer requests, deals, tasks, documents and team communication. Using AI-assisted development, I brought it to a working MVP, personally deployed it to the production server and am running a user pilot.\n\nMy role covers the full cycle: user research, process and requirements design, development, backlog management, change verification and server deployment. Further development follows pilot feedback.\n\nThe public demo is separate from the operational system.",
         "links": [
           [
             "Explore CRM Demo",
