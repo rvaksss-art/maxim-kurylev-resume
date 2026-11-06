@@ -10,34 +10,34 @@ window.CONTENT={
       "Контакты"
     ],
     "intro": "ОТ БИЗНЕС-КОНТЕКСТА ДО РАБОТАЮЩЕГО ПРОДУКТА",
-    "hero": "От проблемы к \nработающему продукту.",
+    "hero": "Анализирую. Проектирую. Создаю.",
     "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
     "desc": "Исследую бизнес-процессы и потребности пользователей, проектирую цифровые решения и сопровождаю их реализацию до приёмки. Применяю AI-инструменты для анализа требований, прототипирования и создания работающих MVP.",
     "location": "Москва · удалённо / гибрид",
     "contact": "Обсудить сотрудничество",
     "work": "Смотреть проекты",
     "download": "Резюме PDF",
-    "aboutTitle": "Понимаю процессы.\nПроектирую решения.",
-    "about": "Работаю на пересечении бизнеса, пользователей и технологий. Исследую процессы, выявляю проблемы и перевожу их в требования к цифровым продуктам — от корпоративных транспортных систем до CRM для международной логистики.",
-    "about2": "Моя сильная сторона — связывать задачи бизнеса с пользовательскими сценариями, требованиями и критериями приёмки. Сопровождаю решения от обследования процессов до тестирования и внедрения. Использую AI для анализа, прототипирования и разработки MVP.",
+    "aboutTitle": "От потребностей\nк решениям.",
+    "about": "За плечами — работа с международными клиентами, проекты французской IT-компании и масштабные внедрения в федеральном ритейле. Умею разбираться в сложных системах, находить общий язык с бизнесом и разработкой и доводить решения до результата.",
+    "about2": "Сейчас развиваю CRM для международной логистики, совмещая роли бизнес-аналитика и Product Owner. Активно применяю AI для ускорения работы и создания новых продуктов.",
     "langs": "Русский — родной · Английский — B2 · Французский — C1",
     "route": [
       "Исследую",
       "Проектирую",
       "Реализую",
-      "Проверяю"
+      "Проверяю и запускаю"
     ],
     "routeSub": [
-      "Процессы / потребности / AS-IS / GAP / TO-BE",
-      "Требования / пользовательские сценарии / MVP",
-      "Бэклог / приоритеты / разработка с AI-инструментами",
-      "Критерии приёмки / UAT / обратная связь"
+      "Бизнес-процессы / потребности пользователей / AS-IS / GAP / TO-BE",
+      "Требования / пользовательские сценарии / прототипы / MVP",
+      "Бэклог / приоритеты / управление разработкой / AI-инструменты",
+      "Критерии приёмки / UAT / внедрение / обратная связь"
     ],
-    "expTitle": "От технической экспертизы \nк созданию продуктов.",
-    "expHint": "Проекты, моя роль и конкретный вклад в результат.",
+    "expTitle": "От крупных IT-проектов\nк созданию продуктов.",
+    "expHint": "Ключевые проекты, моя роль и конкретные результаты.",
     "achTitle": "Результаты в цифрах.",
     "achSub": "Внедрённые решения: масштаб и оценка эффекта.",
-    "skillTitle": "От исследования\nдо выпуска.",
+    "skillTitle": "Аналитика. Продукт.\nТехнологии.",
     "projectsTitle": "Мои продукты",
     "projectSub": "CRM на этапе пилота, новостной AI-агент и личные прототипы.",
     "contactsTitle": "Готов к новым профессиональным задачам",
@@ -134,20 +134,20 @@ window.CONTENT={
     ],
     "skillGroups": [
       [
-        "Исследование и анализ",
-        "AS-IS / TO-BE · GAP-анализ · Customer Journey Mapping · User Story Mapping"
+        "Исследование и Discovery",
+        "Бизнес-процессы · AS-IS / TO-BE · GAP-анализ · CJM · User Story Mapping · Product Discovery · Гипотезы"
       ],
       [
-        "Управление продуктом и реализацией",
-        "MVP · Бэклог · Roadmap · Приоритизация · User Stories · Use Cases · Критерии приёмки · UAT · DoR / DoD"
+        "Продуктовая разработка",
+        "MVP · Roadmap · Product Backlog · Приоритизация · User Stories · Use Cases · Прототипирование · UAT · DoR / DoD · KPI"
       ],
       [
-        "Системы и данные",
-        "TMS · WMS · ERP · OMS · YMS · SAP ERP · SQL · API-интеграции"
+        "Системы и интеграции",
+        "CRM · TMS · WMS · ERP · OMS · YMS · SAP ERP · SQL · REST API · PostgreSQL"
       ],
       [
         "AI и инструменты",
-        "Codex · Анализ требований и прототипирование с AI · Jira · Confluence · Miro · MS Visio · VS Code · Docker · PostgreSQL"
+        "ChatGPT · Codex · Claude · OpenDesign · AI-прототипирование · Jira · Confluence · Miro · MS Visio · VS Code · GitHub · Docker"
       ]
     ],
     "projects": [
@@ -191,34 +191,34 @@ window.CONTENT={
       "Contact"
     ],
     "intro": "FROM BUSINESS CONTEXT TO WORKING PRODUCTS",
-    "hero": "Complex operations.\nClear products.",
+    "hero": "Analyse. Design. Build.",
     "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
     "desc": "I research business processes and user needs, design digital solutions and support delivery through acceptance. I use AI tools for requirements analysis, prototyping and building working MVPs.",
     "location": "Moscow · remote / hybrid",
     "contact": "Let’s talk",
     "work": "Explore projects",
     "download": "Resume PDF",
-    "aboutTitle": "Understand the system.\nDeliver the product.",
-    "about": "Over 8 years in logistics and digital products, spanning enterprise TMS, Last Mile and CRM for international logistics. I investigate real workflows, translate needs into requirements and support delivery through acceptance.",
-    "about2": "I connect business needs, user experience and engineering execution. I use AI for requirements analysis and prototyping, and build working MVPs with Codex.",
+    "aboutTitle": "From needs\nto solutions.",
+    "about": "My experience spans international clients, projects at a French IT company and large-scale deployments in nationwide retail. I navigate complex systems, find common ground between business and development, and see solutions through to results.",
+    "about2": "I am currently developing a CRM for international logistics, combining business analyst and Product Owner responsibilities. I actively use AI to accelerate my work and create new products.",
     "langs": "Russian — native · English B2 · French C1",
     "route": [
-      "Discover",
+      "Research",
       "Design",
-      "Build",
-      "Validate"
+      "Deliver",
+      "Validate & launch"
     ],
     "routeSub": [
-      "AS-IS / GAP / TO-BE",
-      "Requirements / UX / MVP",
-      "Backlog / AI-assisted delivery",
-      "UAT / releases / feedback"
+      "Business processes / user needs / AS-IS / GAP / TO-BE",
+      "Requirements / user scenarios / prototypes / MVP",
+      "Backlog / priorities / development management / AI tools",
+      "Acceptance criteria / UAT / implementation / feedback"
     ],
-    "expTitle": "Experience that\nconnects the dots.",
-    "expHint": "Expand a role to explore responsibilities and outcomes.",
+    "expTitle": "From large-scale IT projects\nto building products.",
+    "expHint": "Key projects, my role and concrete results.",
     "achTitle": "Results in numbers.",
     "achSub": "Delivered solutions: scale and estimated impact.",
-    "skillTitle": "From discovery\nto release.",
+    "skillTitle": "Analysis. Product.\nTechnology.",
     "projectsTitle": "My products",
     "projectSub": "A CRM in pilot, an AI news agent and personal prototypes.",
     "contactsTitle": "Open to new professional challenges",
@@ -320,20 +320,20 @@ window.CONTENT={
     ],
     "skillGroups": [
       [
-        "Discovery & analysis",
-        "AS-IS / TO-BE · GAP analysis · Customer Journey Mapping · User Story Mapping"
+        "Research & Discovery",
+        "Business processes · AS-IS / TO-BE · GAP analysis · CJM · User Story Mapping · Product Discovery · Hypotheses"
       ],
       [
-        "Product & delivery",
-        "MVP · Backlog · Roadmap · Prioritisation · User Stories · Use Cases · UAT · DoR / DoD"
+        "Product development",
+        "MVP · Roadmap · Product Backlog · Prioritisation · User Stories · Use Cases · Prototyping · UAT · DoR / DoD · KPI"
       ],
       [
-        "Systems & data",
-        "TMS · WMS · ERP · OMS · YMS · SAP · SQL · API integrations"
+        "Systems & integrations",
+        "CRM · TMS · WMS · ERP · OMS · YMS · SAP ERP · SQL · REST API · PostgreSQL"
       ],
       [
         "AI & tools",
-        "Codex · AI-assisted prototyping · Jira · Confluence · Miro · MS Visio · VS Code · Docker · PostgreSQL"
+        "ChatGPT · Codex · Claude · OpenDesign · AI prototyping · Jira · Confluence · Miro · MS Visio · VS Code · GitHub · Docker"
       ]
     ],
     "projects": [
