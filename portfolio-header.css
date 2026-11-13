@@ -229,3 +229,19 @@ header.top.cinematic-header {
 
 
 .cinematic-header #language { border: 0; background: transparent; box-shadow: none; }
+
+/* On desktop the section links occupy their own row in the CV header. */
+@media (min-width: 801px) {
+  header.cinematic-header:has(> #nav) {
+    height: auto !important;
+    grid-template-rows: minmax(44px, auto) auto;
+    row-gap: 8px;
+    padding-block: 12px 10px !important;
+  }
+  header.cinematic-header > #nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
