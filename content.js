@@ -10,7 +10,7 @@ window.CONTENT={
       "Контакты"
     ],
     "intro": "ОТ БИЗНЕС-КОНТЕКСТА ДО РАБОТАЮЩЕГО ПРОДУКТА",
-    "hero": "Анализирую. Проектирую. Создаю.",
+    "hero": "Профессиональный\nпрофиль.",
     "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
     "desc": "Исследую бизнес-процессы и потребности пользователей, проектирую цифровые решения и сопровождаю их реализацию до приёмки. Применяю AI-инструменты для анализа требований, прототипирования и создания работающих MVP.",
     "location": "Москва · удалённо / гибрид",
@@ -33,13 +33,13 @@ window.CONTENT={
       "Бэклог / приоритеты / управление разработкой / AI-инструменты",
       "Критерии приёмки / UAT / внедрение / обратная связь"
     ],
-    "expTitle": "Мой профессиональный путь.",
+    "expTitle": "Опыт работы",
     "expHint": "Ключевые проекты, моя роль и конкретные результаты.",
     "achTitle": "Результаты в цифрах.",
     "achSub": "Внедрённые решения: масштаб и оценка эффекта.",
     "skillTitle": "Аналитика. Продукт.\nТехнологии.",
     "projectsTitle": "Мои продукты",
-    "projectSub": "CRM на этапе пилота, новостной AI-агент и личные прототипы.",
+    "projectSub": "CRM на этапе пилота, AI-агент, инструменты для закупок и личные прототипы.",
     "contactsTitle": "Готов к новым профессиональным задачам",
     "contactsSub": "Открыт к предложениям на позиции Lead Business Analyst и Product Owner, а также к проектам с применением AI в разработке цифровых продуктов.\n\nУдалённая работа / гибрид · Готов к командировкам",
     "copy": "Скопировать email",
@@ -167,6 +167,17 @@ window.CONTENT={
         ]
       },
       {
+        "tag": "FINTECH · ИНТЕРАКТИВНЫЙ ПРОТОТИП",
+        "name": "Конвертер валют",
+        "text": "Интерактивный HTML-мокап обмена RUB и USDT между счетами кошелька. Показывает ввод суммы, расчёт комиссии и суммы получения, проверку баланса, срок действия котировки и результат обмена. Демонстрационные сценарии включают истечение и изменение курса, недостаток средств и отклонение операции. Курс и балансы тестовые; реальные операции не выполняются.",
+        "links": [
+          [
+            "Открыть мокап",
+            "https://rvaksss-art.github.io/currency-exchange-wallet/"
+          ]
+        ]
+      },
+      {
         "tag": "AI · EDITORIAL WORKFLOW",
         "name": "Logistics News Agent",
         "text": "Создал AI-агента для мониторинга новостей по логистике и ВЭД: сбор материалов с сайтов и публичных Telegram-источников, фильтрация, ранжирование и удаление дублей. Агент готовит редакционные черновики; после согласования в Telegram подтверждённые материалы публикуются на тестовом сайте.",
@@ -177,6 +188,17 @@ window.CONTENT={
         "name": "TMS & Last Mile",
         "text": "Личные MVP, созданные с помощью Codex для проработки логистических процессов, пользовательских сценариев и интерфейсов. Демонстрируют подход к анализу и проектированию продуктов.",
         "links": []
+      },
+      {
+        "tag": "ЗАКУПКИ · АНАЛИЗ ДОГОВОРОВ",
+        "name": "Semantic TextNavigator",
+        "text": "Браузерный инструмент для закупок. Связывает договоры и допсоглашения в TXT, определяет действующую сумму и срок поставки на выбранную дату и показывает подтверждающие цитаты. Документы обрабатываются в браузере.",
+        "links": [
+          [
+            "Открыть демо",
+            "https://rvaksss-art.github.io/semantic-textnavigator/"
+          ]
+        ]
       }
     ]
   },
@@ -191,7 +213,7 @@ window.CONTENT={
       "Contact"
     ],
     "intro": "FROM BUSINESS CONTEXT TO WORKING PRODUCTS",
-    "hero": "Analyse. Design. Build.",
+    "hero": "Professional\nprofile.",
     "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
     "desc": "I research business processes and user needs, design digital solutions and support delivery through acceptance. I use AI tools for requirements analysis, prototyping and building working MVPs.",
     "location": "Moscow · remote / hybrid",
@@ -214,13 +236,13 @@ window.CONTENT={
       "Backlog / priorities / development management / AI tools",
       "Acceptance criteria / UAT / implementation / feedback"
     ],
-    "expTitle": "My professional journey.",
+    "expTitle": "Work experience",
     "expHint": "Key projects, my role and concrete results.",
     "achTitle": "Results in numbers.",
     "achSub": "Delivered solutions: scale and estimated impact.",
     "skillTitle": "Analysis. Product.\nTechnology.",
     "projectsTitle": "My products",
-    "projectSub": "A CRM in pilot, an AI news agent and personal prototypes.",
+    "projectSub": "A CRM in pilot, an AI news agent, a procurement tool and personal prototypes.",
     "contactsTitle": "Open to new professional challenges",
     "contactsSub": "Open to Lead Business Analyst and Product Owner roles, and projects applying AI to digital product development.\n\nRemote / hybrid · Available for business travel",
     "copy": "Copy email",
@@ -353,6 +375,17 @@ window.CONTENT={
         ]
       },
       {
+        "tag": "FINTECH · INTERACTIVE PROTOTYPE",
+        "name": "Currency converter",
+        "text": "An interactive HTML mockup for exchanging RUB and USDT between wallet accounts. It demonstrates amount entry, fees and credit calculation, balance validation, quote expiry and exchange results. Demo scenarios cover expired and changed rates, insufficient funds and declined transactions. Rates and balances are test data; no real transactions are performed.",
+        "links": [
+          [
+            "Open mockup",
+            "https://rvaksss-art.github.io/currency-exchange-wallet/"
+          ]
+        ]
+      },
+      {
         "tag": "AI · EDITORIAL WORKFLOW",
         "name": "Logistics News Agent",
         "text": "Built an AI agent for logistics and foreign trade news: collection from websites and public Telegram sources, filtering, ranking and deduplication. The agent prepares editorial drafts; after approval in Telegram, confirmed stories are published to a test site.",
@@ -363,6 +396,17 @@ window.CONTENT={
         "name": "TMS & Last Mile",
         "text": "Personal MVPs built with Codex to explore logistics workflows, user scenarios and interfaces.",
         "links": []
+      },
+      {
+        "tag": "PROCUREMENT · CONTRACT REVIEW",
+        "name": "Semantic TextNavigator",
+        "text": "A browser tool for procurement teams. It connects contracts and amendments in TXT, identifies the applicable amount and delivery deadline as of a selected date, and links to supporting passages. Files are processed in the browser.",
+        "links": [
+          [
+            "Open demo",
+            "https://rvaksss-art.github.io/semantic-textnavigator/"
+          ]
+        ]
       }
     ]
   }
