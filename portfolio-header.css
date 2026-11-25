@@ -245,3 +245,16 @@ header.top.cinematic-header {
     flex-wrap: wrap;
   }
 }
+
+/* Text navigation matches ALL; retain CV section navigation and menu. */
+.cinematic-header .nav-disc{display:none}
+.cinematic-header .portfolio-arrows{gap:22px!important}
+.cinematic-header .portfolio-arrows a{padding:0 8px}
+.cinematic-header .portfolio-arrows a>span:not(.nav-disc),.cinematic-header .nav-page{display:block}
+@media(max-width:800px){
+ header.cinematic-header:has(.switches){--header-gutter:12px}
+ .cinematic-header .portfolio-arrows{gap:2px!important}
+ .cinematic-header .portfolio-arrows a{font-size:11px;min-width:28px;padding:0 2px}
+ .cinematic-header .nav-page{font-size:12px}
+ .cinematic-header .header-actions-group{gap:0!important}
+}
