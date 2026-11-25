@@ -1,0 +1,76 @@
+/* Shared brand tokens; scenario-specific surfaces and editorial hierarchy. */
+@font-face{font-family:Manrope;src:url('https://rvaksss-art.github.io/assets/fonts/manrope-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+0000-024F}
+@font-face{font-family:Manrope;src:url('https://rvaksss-art.github.io/assets/fonts/manrope-cyrillic-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+0400-052F}
+:root{--brand-heading:#F0F4EF;--brand-body:#C6D5CE;--brand-muted:#A0B5AB;--brand-mint:#B4E8CD;--brand-gold:#D4BE92;--brand-bg-all:#10231E;--brand-bg-cv:#0E181B;--brand-surface:#172E27;--brand-line:#50675C;--brand-font:Manrope,'Segoe UI',sans-serif;--bg:var(--brand-bg-all);--text:var(--brand-heading);--muted:var(--brand-muted);--mint:var(--brand-mint);--accent:var(--brand-mint);--gold:var(--brand-gold);--surface:var(--brand-surface);--line:var(--brand-line)}
+html[data-portfolio-page="1"]{--bg:var(--brand-bg-cv);--brand-body:#D0D9D6;--brand-surface:#162328;--head:#0E181BF5}
+html[data-theme=light]{--brand-heading:#18382D;--brand-body:#2F5145;--brand-muted:#4D675B;--brand-mint:#246249;--brand-gold:#745A2D;--brand-bg-all:#EDF3EF;--brand-bg-cv:#F3F6F5;--brand-surface:#FFFFFF;--brand-line:#82988B;--bg:var(--brand-bg-all);--text:var(--brand-heading);--muted:var(--brand-muted);--mint:var(--brand-mint);--accent:var(--brand-mint);--gold:var(--brand-gold);--surface:var(--brand-surface);--line:var(--brand-line)}
+html[data-theme=light][data-portfolio-page="1"]{--bg:var(--brand-bg-cv);--brand-body:#2F5145;--head:#F3F6F5F5}
+body{font-family:var(--brand-font);color:var(--brand-body);background-color:var(--bg);line-height:1.65}
+h1,h2,h3,strong{color:var(--brand-heading)}
+a,button,summary{touch-action:manipulation}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--brand-mint);outline-offset:4px}
+.cinematic-header{--header-ink:var(--brand-mint);--header-ring:var(--brand-line);--header-hover:color-mix(in srgb,var(--brand-mint) 10%,transparent);color:var(--brand-heading);font-family:var(--brand-font)}
+html[data-theme=light] .cinematic-header{--header-ink:var(--brand-mint);--header-ring:var(--brand-line)}
+.cinematic-header button,.cinematic-header .portfolio-arrows a{color:var(--brand-mint);font-family:var(--brand-font)}
+.cinematic-header .nav-page{color:var(--brand-gold)}
+.cinematic-header .brand small{color:var(--brand-muted);font-size:11px;letter-spacing:.1em}
+.button,#project-list .actions .text-link{border-radius:24px;border-color:var(--brand-line);color:var(--brand-mint);font-family:var(--brand-font);font-size:14px;min-height:44px}
+.button.primary{background:var(--brand-mint);color:var(--bg)}
+.button.primary:hover{background:var(--brand-heading);color:var(--bg)}
+.text-link{color:var(--brand-mint);text-underline-offset:4px}
+button svg,.switches svg,.header-actions-group svg{stroke:currentColor;stroke-width:1.5}
+/* ALL: expressive display type, clearer supporting copy. */
+html[data-portfolio-page="0"] .intro,html[data-portfolio-page="0"] .portal p{color:var(--brand-body);font-size:16px;line-height:1.65}
+html[data-portfolio-page="0"] .portal h3{font-family:var(--brand-font);font-weight:500;font-size:clamp(26px,2.4vw,36px);letter-spacing:-.035em;line-height:1.2}
+.category,.index,.selection-heading h2,.selection-heading>span,.hero-scroll,.footer,.cube-help{color:var(--brand-muted);font-size:12px}
+.category,.eyebrow{color:var(--brand-gold)}
+.project-option,.card-bottom{font-size:14px;min-height:44px}
+.cube-controls button{font-size:12px;color:var(--brand-mint)}
+.hero>div:first-child{user-select:text;-webkit-user-select:text}
+/* CV: continuous reading, clear landmarks and tabular metrics. */
+html[data-portfolio-page="1"] h1,html[data-portfolio-page="1"] h2,html[data-portfolio-page="1"] h3,html[data-portfolio-page="1"] .project h3{font-family:var(--brand-font);font-weight:600;letter-spacing:-.035em}
+html[data-portfolio-page="1"] h1{font-size:clamp(38px,4.2vw,64px);line-height:1.12}
+html[data-portfolio-page="1"] h2{font-size:clamp(28px,3vw,44px);line-height:1.2}
+.hero-desc,.prose p,.career ul,.achievement p,.skill-row p,.project p,.contact-desc{color:var(--brand-body);font-size:16px;line-height:1.7}
+.location,.metrics p,.journey p,.career time,.career .job,.section-head>p,.education ul,.contact-links small,footer,.pdf-link small{font-size:13px;line-height:1.65}
+.eyebrow,.section-label,.project-tag{font-family:var(--brand-font);font-size:12px;letter-spacing:.08em;line-height:1.6}
+.visual-top,.visual-bottom,.orbit-label,.orbital-hint{color:var(--brand-muted);font-size:11px;opacity:1}
+.orbital-hint{letter-spacing:.04em}
+.metrics strong,.achievement strong{font-family:var(--brand-font);font-weight:600;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--brand-mint);line-height:1.15}
+.metrics strong{font-size:clamp(32px,3.2vw,46px)}
+.achievement strong{font-size:clamp(34px,3.3vw,48px)}
+.metrics{margin-top:40px;padding:24px 0;gap:24px}
+.achievement{padding:24px;border-radius:12px;border-top:2px solid var(--brand-mint);background:var(--surface)}
+.achievement h3{margin:16px 0 10px;line-height:1.4}
+.achievement-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.section{padding:64px 0}
+.section-label{margin-bottom:20px}
+.section-head{margin-bottom:28px}
+.journey{margin-top:32px}
+.hero{padding-top:48px}
+.hero-grid>*{min-width:0}
+.project h3{font-size:28px;line-height:1.25}
+.project-num{color:var(--brand-muted)}
+.skill-row{padding-bottom:16px;margin-bottom:20px}
+@media(max-width:800px){
+ html[data-portfolio-page="1"] .hero{padding-top:26px}
+ html[data-portfolio-page="1"] .hero h1[data-t="hero"]{font-size:clamp(30px,8vw,48px);line-height:1.15}
+ html[data-portfolio-page="1"] .section h2{font-size:clamp(27px,7vw,36px)}
+ .section{padding:40px 0}.split{gap:22px}.section-label{margin-bottom:14px}
+ .identity{margin-top:20px}.hero-desc{margin-bottom:16px}.actions{margin-top:20px;gap:14px}
+ .metrics{margin-top:24px;gap:20px;padding:20px 0}.metrics p{margin-top:6px}
+ .journey{gap:22px;margin-top:26px}.journey p{font-size:14px}
+ .career h3{font-size:21px}.career summary{padding:20px 0}
+ .achievement-grid{grid-template-columns:minmax(0,1fr)}.achievement{padding:22px}
+ .project{gap:16px;grid-template-columns:30px minmax(0,1fr);padding:26px 0}.project-num{font-size:30px}
+ .project h3{font-size:25px}.project-tag{overflow-wrap:anywhere}
+ .system-visual{margin-top:24px}.visual-top,.visual-bottom{font-size:10px}.orbital-hint{font-size:10px}
+ .section-head>p{margin-top:16px}.prose p{margin-bottom:16px}
+ .contact-links strong{font-size:20px}.contact-desc{margin-top:18px}
+ .wrap,main,footer{min-width:0}.portals,.split,.metrics,.journey{min-width:0}
+ .cinematic-header .brand small{font-size:10px}
+}
+@media(max-width:370px){.cinematic-header .brand small{font-size:9px}.eyebrow{font-size:11px;letter-spacing:.02em}.visual-top{flex-wrap:wrap}.visual-live{margin-left:auto}.project .actions{gap:12px}}
+.button.primary span,.button.primary svg{color:inherit}
+.role,.languages{color:var(--brand-gold)}
+html[data-portfolio-page="1"] .orbital-hint{opacity:1}
