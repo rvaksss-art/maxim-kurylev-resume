@@ -9,13 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const stage = scene.querySelector('.orbit-stage');
   const canvas = scene.querySelector('.orbit-canvas');
   const core = scene.querySelector('.orb-core');
-  const toggle = scene.querySelector('.motion-toggle');
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const TAU = Math.PI * 2;
   let width = 0, height = 0, frame = 0, last = 0, clock = 0;
-  let visible = true, paused = false, hovered = false, light = false;
+  let visible = true, hovered = false, light = false;
   let mouseX = 0, mouseY = 0, tiltX = 0, tiltY = 0, presence = 0;
   let pulse = 0, pulseTimer;
   const rings = [
@@ -105,20 +104,17 @@ document.addEventListener('DOMContentLoaded', () => {
     paint();schedule();
   }
   function schedule() {
-    if (!frame && visible && !document.hidden && !paused && !reduce.matches) frame=requestAnimationFrame(tick);
+    if (!frame && visible && !document.hidden && !reduce.matches) frame=requestAnimationFrame(tick);
   }
   function refresh() {
     if(frame)cancelAnimationFrame(frame);frame=0;last=0;
-    scene.classList.toggle('motion-still',paused||reduce.matches);
+    scene.classList.toggle('motion-still',reduce.matches);
     paint();schedule();
   }
   function labels() {
     const en=document.documentElement.lang==='en';
     light=document.documentElement.dataset.theme==='light';
     core.setAttribute('aria-label',en?'Send a pulse through the orbits':'Запустить световой импульс по орбитам');
-    toggle.setAttribute('aria-label',en?(paused?'Resume orbital animation':'Pause orbital animation'):(paused?'Возобновить анимацию орбит':'Приостановить анимацию орбит'));
-    toggle.setAttribute('aria-pressed',String(paused));
-    toggle.title=toggle.getAttribute('aria-label');
     scene.querySelector('.orbital-hint').textContent=reduce.matches?(en?'SELECT THE CORE':'НАЖМИТЕ НА ЦЕНТР'):(en?'HOVER · CLICK TO CONNECT':'НАВЕДИТЕ · НАЖМИТЕ');
     paint();
   }
@@ -128,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ctx.setTransform(dpr,0,0,dpr,0,0);paint();
   }
   stage.addEventListener('pointermove',e=>{
-    if(e.pointerType==='touch'||paused||reduce.matches)return;
+    if(e.pointerType==='touch'||reduce.matches)return;
     const rect=stage.getBoundingClientRect();mouseX=(e.clientX-rect.left)/rect.width*2-1;mouseY=(e.clientY-rect.top)/rect.height*2-1;
     hovered=true;scene.classList.add('is-engaged');
   });
@@ -137,12 +133,17 @@ document.addEventListener('DOMContentLoaded', () => {
   stage.addEventListener('pointercancel',leave);
   core.addEventListener('focus',()=>{hovered=true;scene.classList.add('is-engaged')});
   core.addEventListener('blur',leave);
-  stage.addEventListener('click',()=>{
+  function ignite() {
     pulse=1;scene.classList.remove('is-pulsing');void core.offsetWidth;scene.classList.add('is-pulsing');
-    clearTimeout(pulseTimer);pulseTimer=setTimeout(()=>{scene.classList.remove('is-pulsing');if(paused||reduce.matches){pulse=0;paint()}},1800);
+    clearTimeout(pulseTimer);pulseTimer=setTimeout(()=>{scene.classList.remove('is-pulsing');if(reduce.matches){pulse=0;paint()}},1800);
     paint();
+  }
+  let lastTouch = -Infinity;
+  stage.addEventListener('pointerdown',event=>{
+    if(event.pointerType!=='touch'||!event.isPrimary)return;
+    lastTouch=performance.now();ignite();
   });
-  toggle.addEventListener('click',()=>{paused=!paused;leave();labels();refresh()});
+  stage.addEventListener('click',()=>{if(performance.now()-lastTouch>700)ignite()});
   reduce.addEventListener('change',()=>{leave();labels();refresh()});
   document.addEventListener('visibilitychange',refresh);
   new MutationObserver(labels).observe(document.documentElement,{attributes:true,attributeFilter:['lang','data-theme']});

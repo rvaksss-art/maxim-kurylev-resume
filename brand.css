@@ -136,3 +136,101 @@ html[data-portfolio-page="1"] .hero .actions .text-link:hover{background:color-m
  html[data-portfolio-page="1"] .hero .actions{gap:6px}
  html[data-portfolio-page="1"] .hero .actions :is(.button.primary,.text-link){padding-inline:5px;gap:4px;font-size:11px}
 }
+
+/* Personal mobile introduction; the desktop Hero retains its original layout. */
+.mobile-profile{display:none}
+@media(max-width:800px){
+ html[data-portfolio-page="1"] .hero{display:flex;flex-direction:column;padding-top:22px}
+ html[data-portfolio-page="1"] .hero-grid,html[data-portfolio-page="1"] .hero-grid>div:first-child{display:contents}
+ html[data-portfolio-page="1"] .hero-grid>div:first-child>.eyebrow,html[data-portfolio-page="1"] .hero-grid>div:first-child>.identity,html[data-portfolio-page="1"] .hero-grid>div:first-child>h1{display:none}
+ html[data-portfolio-page="1"] .mobile-profile{display:block;order:0}
+ html[data-portfolio-page="1"] .mobile-profile-label{font-size:11px;line-height:1.5;letter-spacing:.07em;text-transform:uppercase;white-space:normal;color:var(--brand-gold);margin:0 0 16px}
+ html[data-portfolio-page="1"] .mobile-profile-row{display:grid;grid-template-columns:minmax(0,1fr) 88px;gap:16px;align-items:center}
+ html[data-portfolio-page="1"] .mobile-name{font-family:Manrope,'Segoe UI',sans-serif;font-size:clamp(28px,8vw,40px);font-weight:600;line-height:1.15;letter-spacing:-.035em;white-space:normal;margin:0;min-width:0}
+ html[data-portfolio-page="1"] .mobile-portrait{position:relative;isolation:isolate;width:88px;height:112px}
+ html[data-portfolio-page="1"] .mobile-portrait:before{content:'';position:absolute;inset:-30px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse,#B4E8CD24,transparent 70%)}
+ html[data-portfolio-page="1"] .mobile-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%;border-radius:16px;border:1px solid color-mix(in srgb,var(--brand-mint) 24%,transparent)}
+ html[data-portfolio-page="1"] .hero .role{order:1;color:var(--brand-mint);font-size:13px;line-height:1.65;margin:14px 0 0}
+ html[data-portfolio-page="1"] .hero .hero-desc{order:2;font-size:15px;line-height:1.65;margin:16px 0 18px}
+ html[data-portfolio-page="1"] .hero .metrics{order:3;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px 10px;margin:0;padding:16px 0 12px}
+ html[data-portfolio-page="1"] .hero .metrics>div{border:0;min-width:0}
+ html[data-portfolio-page="1"] .hero .metrics strong{font-size:30px;font-weight:600;line-height:1.2;letter-spacing:-.035em}
+ html[data-portfolio-page="1"] .hero .metrics strong span{font-size:22px}
+ html[data-portfolio-page="1"] .hero .metrics p{font-size:11px;line-height:1.5;margin:6px 0 0;max-width:none}
+ html[data-portfolio-page="1"] .hero .metrics .pdf-link{grid-column:1/-1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:36px;border-top:1px solid var(--line);padding-top:10px;font-size:12px}
+ html[data-portfolio-page="1"] .hero .metrics .pdf-link b{font-size:12px}
+ html[data-portfolio-page="1"] .hero .actions{order:4;margin-top:16px}
+ html[data-portfolio-page="1"] .hero .actions .button.primary{background:var(--brand-mint);color:var(--bg)}
+ html[data-portfolio-page="1"] .hero .actions .button.primary:hover{background:var(--brand-heading);color:var(--bg)}
+ html[data-portfolio-page="1"] .hero .location{order:5;margin:12px 0 0;font-size:12px;line-height:1.5}
+ html[data-portfolio-page="1"] .hero .system-visual{order:6;margin-top:26px;width:100%}
+}
+
+/* ALL-style monogram for the mobile CV header. */
+header.cinematic-header .mobile-header-seal{display:none}
+@media(max-width:800px){
+ html[data-portfolio-page="1"] header.cinematic-header{height:76px!important;border-bottom:1px solid var(--line)!important}
+ html[data-portfolio-page="1"] header.cinematic-header .brand-portrait,html[data-portfolio-page="1"] header.cinematic-header .brand>span{display:none}
+ html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal{display:block;width:44px;height:44px;color:var(--brand-mint);stroke-width:1}
+ html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal circle{fill:none}
+ html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal circle:last-child{fill:currentColor}
+}
+
+/* Mobile Hero: profile, evidence, live scene, then actions. */
+.mobile-hero-links{display:none}
+@media(max-width:800px){
+ html[data-portfolio-page="1"] .hero{padding-top:14px}
+ html[data-portfolio-page="1"] .mobile-profile-label{margin-bottom:10px;font-size:10px;line-height:1.5}
+ html[data-portfolio-page="1"] .mobile-profile-row{grid-template-columns:minmax(0,1fr) 64px;gap:12px}
+ html[data-portfolio-page="1"] .mobile-portrait{width:64px;height:76px}
+ html[data-portfolio-page="1"] .mobile-portrait img{border-radius:12px}
+ html[data-portfolio-page="1"] .mobile-name{font-size:clamp(25px,7.2vw,34px);line-height:1.15}
+ html[data-portfolio-page="1"] .hero .role{font-size:12px;line-height:1.55;margin-top:10px}
+ html[data-portfolio-page="1"] .hero .hero-desc{font-size:14px;line-height:1.6;margin:12px 0 14px}
+ html[data-portfolio-page="1"] .hero .metrics{padding:12px 0;gap:10px}
+ html[data-portfolio-page="1"] .hero .metrics p{font-size:11px;line-height:1.45}
+ html[data-portfolio-page="1"] .hero .metrics>.pdf-link{display:none}
+ html[data-portfolio-page="1"] .hero .system-visual{order:4;margin:12px 0;aspect-ratio:auto;height:clamp(200px,27svh,250px);min-height:200px;border:0}
+ html[data-portfolio-page="1"] .hero .system-visual .visual-top{top:0;font-size:9px}
+ html[data-portfolio-page="1"] .hero .system-visual .visual-bottom{bottom:0;font-size:9px}
+ html[data-portfolio-page="1"] .hero .system-visual .orbit-stage{inset:20px 0}
+ html[data-portfolio-page="1"] .hero .system-visual .orb-core{width:34%;aspect-ratio:1.15}
+ html[data-portfolio-page="1"] .hero .system-visual .orbital-hint{font-size:8px;bottom:0}
+ html[data-portfolio-page="1"] .hero .actions{display:contents}
+ html[data-portfolio-page="1"] .hero .actions .button.primary{order:5;align-self:stretch;width:100%;min-height:44px;font-size:13px;padding:10px 14px;margin:0}
+ html[data-portfolio-page="1"] .hero .actions .text-link{display:none!important}
+ html[data-portfolio-page="1"] .hero .mobile-hero-links{display:flex;order:6;align-items:center;justify-content:center;gap:22px;min-height:44px;padding:6px 0}
+ html[data-portfolio-page="1"] .hero .mobile-hero-links a{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:36px;font-size:12px;line-height:1.4;color:var(--brand-mint);border:0;background:none}
+ html[data-portfolio-page="1"] .hero .location{order:7;margin:0;font-size:12px}
+}
+
+/* Immediate touch feedback without the browser selection overlay. */
+.system-visual .orbit-stage,.system-visual .orbit-stage *{-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.system-visual .orb-core:focus:not(:focus-visible){outline:none}
+/* Airier mobile portfolio navigation, consistent with ALL. */
+@media(max-width:800px){
+ html[data-portfolio-page="1"] header.cinematic-header .portfolio-arrows{gap:8px!important}
+ html[data-portfolio-page="1"] header.cinematic-header .portfolio-arrows a{padding-inline:3px}
+}
+@media(max-width:370px){
+ html[data-portfolio-page="1"] header.cinematic-header:has(.switches){--header-gutter:8px}
+ html[data-portfolio-page="1"] header.cinematic-header .portfolio-arrows{gap:6px!important}
+ html[data-portfolio-page="1"] header.cinematic-header .portfolio-arrows a{padding-inline:1px;min-width:24px}
+}
+
+/* Refined monogram: precise strokes and an open, quiet signature ring. */
+html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal .mk-ring{stroke:currentColor;stroke-width:.75;opacity:.48;stroke-dasharray:108 15;transform:rotate(-38deg);transform-origin:22px 22px}
+html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal .mk-letter{fill:none;stroke:currentColor;stroke-width:1.15;stroke-linecap:round;stroke-linejoin:round;opacity:.95;transform:translate(-1.5px,0)}
+html[data-portfolio-page="1"] header.cinematic-header .mobile-header-seal .mk-mark{stroke:none;fill:currentColor;opacity:.9}
+
+/* MK signature — geometric mint monogram with a restrained gold accent. */
+header.cinematic-header > a.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+header.cinematic-header .brand .mk-signature{display:block;width:52px;height:52px;flex:none;color:var(--brand-mint);overflow:visible}
+header.cinematic-header .mk-signature .mk-orbit{stroke:currentColor;stroke-width:1.15;stroke-linecap:round;opacity:.85}
+header.cinematic-header .mk-signature .mk-monogram{stroke:currentColor;stroke-width:2.15;stroke-linecap:square;stroke-linejoin:miter}
+header.cinematic-header .mk-signature .mk-spark{fill:var(--brand-gold);stroke:none}
+header.cinematic-header .brand .mk-wordmark{display:flex;flex-direction:column;gap:5px;border-left:1px solid color-mix(in srgb,var(--brand-gold) 65%,transparent);padding-left:14px;white-space:nowrap}
+header.cinematic-header .brand .mk-name{font-family:var(--brand-font);font-size:13px;font-weight:600;line-height:1.2;letter-spacing:.16em;color:var(--brand-heading)}
+header.cinematic-header .brand .mk-wordmark small{font-family:var(--brand-font);font-size:8px;font-weight:500;line-height:1.4;letter-spacing:.18em;color:var(--brand-mint);margin:0;opacity:.85}
+@media(min-width:801px) and (max-width:1100px){header.cinematic-header > a.brand{gap:10px}header.cinematic-header .brand .mk-wordmark{padding-left:10px}header.cinematic-header .brand .mk-name{font-size:11px;letter-spacing:.1em}header.cinematic-header .brand .mk-wordmark small{font-size:7px;letter-spacing:.1em}}
+@media(max-width:800px){html header.cinematic-header > a.brand{gap:0;min-width:44px;min-height:44px}html header.cinematic-header .brand .mk-signature{width:44px;height:44px}html header.cinematic-header .brand .mk-wordmark{display:none}}
