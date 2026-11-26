@@ -11,8 +11,8 @@ window.CONTENT={
     ],
     "intro": "ОТ БИЗНЕС-КОНТЕКСТА ДО РАБОТАЮЩЕГО ПРОДУКТА",
     "hero": "Профессиональный\nпрофиль.",
-    "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
-    "desc": "Исследую потребности бизнеса и пользователей, проверяю гипотезы, проектирую цифровые продукты и довожу их до внедрения. Использую AI для анализа, прототипирования и создания MVP.",
+    "lead": "Lead Business Analyst / Product Owner",
+    "desc": "Сочетаю бизнес-анализ и продуктовое мышление. Исследую потребности бизнеса и пользователей, проверяю гипотезы и довожу цифровые продукты до внедрения. Применяю AI для анализа и разработки MVP.",
     "location": "Москва · удалённо / гибрид",
     "contact": "Обсудить сотрудничество",
     "work": "Смотреть проекты",
@@ -68,7 +68,8 @@ window.CONTENT={
           "Лично развернул и запустил CRM на боевом сервере (Docker, PostgreSQL), настроив миграции, резервное копирование, проверку работоспособности и восстановление с сохранением пользовательских данных. Провожу пилотное тестирование с пользователями.",
           "Самостоятельно формирую и приоритизирую требования, описываю бизнес-правила, пользовательские сценарии и критерии приёмки. Развиваю продукт по обратной связи пользователей.",
           "Прорабатываю в CRM процессы работы с партнёрами, клиентскими запросами, сделками, задачами, документами и командными коммуникациями. Проверяю бизнес-логику и изменения перед выпуском."
-        ]
+        ],
+        "impact": "Создание и запуск CRM для международной логистики."
       },
       {
         "date": "04.2024 — 10.2026",
@@ -79,7 +80,8 @@ window.CONTENT={
           "Обследовал 15+ систем, описал 18+ процессов и выявил 30+ ручных операций. Подготовил AS-IS, провёл GAP-анализ и согласовал TO-BE с бизнесом и ИТ. Разработал критерии оценки и участвовал в сравнении 10+ вендоров в рамках RFI/RFP.",
           "Подготовил и согласовал требования к трём модулям TMS: управлению заказами, работе диспетчеров и учёту. Описал бизнес-правила, роли, статусы, интеграции и критерии приёмки. На момент завершения моей работы новая TMS находилась на этапе MVP.",
           "Проработал требования к автоматизации нарядов и претензионной работы, сопровождал изменения до внедрения. Для экспедиторских документов определил источники 30+ реквизитов, подготовил маппинг данных и провёл UAT. Документы введены в эксплуатацию на 55 РЦ."
-        ]
+        ],
+        "impact": "Проект TMS масштаба 55 РЦ и 120+ интеграций."
       },
       {
         "date": "02.2019 — 01.2024",
@@ -89,7 +91,8 @@ window.CONTENT={
           "Выполнял роль Product Owner для Last Mile: мобильного приложения, экрана диспетчеров и маршрутизатора для 300+ водителей. Управлял требованиями и бэклогом, определял приоритеты и координировал доработки с внешней командой разработки.",
           "Прорабатывал пользовательские сценарии и интеграции: задания, статусы доставки, карты, GPS, документы и чат с диспетчером. Описывал бизнес-правила, тестировал и принимал изменения.",
           "Формировал требования к развитию TMS, WMS, ERP, YMS и портала поставщика; участвовал в открытии РЦ. Прорабатывал запись транспорта и временные слоты, анализировал данные с помощью SQL и Excel."
-        ]
+        ],
+        "impact": "Развитие продукта Last Mile для 300+ водителей."
       },
       {
         "date": "10.2017 — 01.2019",
@@ -98,7 +101,8 @@ window.CONTENT={
         "bullets": [
           "Участвовал во внедрении Logistar — WMS, TMS, OMS и SCM — и адаптации системы под потребности заказчиков. Работал с французской командой разработки, проходил обучение и работал в головном офисе в Нанте.",
           "Анализировал процессы, формировал требования и ТЗ, ставил задачи разработчикам. Тестировал изменения, анализировал логи, сопровождал запуск систем и обучение пользователей."
-        ]
+        ],
+        "impact": "IT-проекты в области OMS, WMS, TMS и SCM."
       },
       {
         "date": "01.2015 — 10.2017",
@@ -107,7 +111,8 @@ window.CONTENT={
         "bullets": [
           "Работал с российскими и международными корпоративными клиентами в сфере SSL-сертификатов и интернет-безопасности.",
           "Оказывал техническую поддержку, консультировал клиентов, вёл переговоры и переписку на иностранных языках, готовил коммерческие предложения и сопровождал сделки."
-        ]
+        ],
+        "impact": "Международный опыт в информационной безопасности."
       }
     ],
     "achievements": [
@@ -200,7 +205,19 @@ window.CONTENT={
           ]
         ]
       }
-    ]
+    ],
+    "desktopLabel": "Профессиональный профиль",
+    "desktopLead": "Lead Business Analyst / Product Owner",
+    "desktopDescription": "Сочетаю бизнес-анализ и продуктовое мышление. Исследую потребности бизнеса и пользователей, проверяю гипотезы и довожу цифровые продукты до внедрения. Применяю AI для анализа и разработки MVP.",
+    "desktopAboutSecond": "За плечами — международные IT-проекты, масштабные внедрения в федеральном ретейле и создание собственных цифровых продуктов.",
+    "desktopRoute0": "Бизнес-процессы / потребности пользователей / проблемы / гипотезы",
+    "desktopRoute1": "TO-BE / требования / пользовательские сценарии / прототипы / MVP",
+    "desktopRoute2": "Бэклог / приоритизация / управление разработкой / AI-инструменты",
+    "desktopRoute3": "Критерии приёмки / UAT / внедрение / метрики / обратная связь",
+    "desktopHeroDetail": "",
+    "desktopLanguagesLabel": "Языки",
+    "desktopNative": "Родной",
+    "desktopApproachLabel": "Мой подход к работе"
   },
   "en": {
     "name": "Maxim Kurylev",
@@ -214,8 +231,8 @@ window.CONTENT={
     ],
     "intro": "FROM BUSINESS CONTEXT TO WORKING PRODUCTS",
     "hero": "Professional\nprofile.",
-    "lead": "Lead Business Analyst / Product Owner / AI Product Builder",
-    "desc": "I research business and user needs, validate hypotheses, design digital products and take them through to implementation. I use AI for analysis, prototyping and building MVPs.",
+    "lead": "Lead Business Analyst / Product Owner",
+    "desc": "I combine business analysis and product thinking. I research business and user needs, test hypotheses, and bring digital products into use. I apply AI to analysis and MVP development.",
     "location": "Moscow · remote / hybrid",
     "contact": "Let’s talk",
     "work": "Explore projects",
@@ -271,7 +288,8 @@ window.CONTENT={
           "Personally deployed and launched the CRM on the production server (Docker, PostgreSQL), setting up migrations, backups, health checks and data-preserving recovery. Running a user pilot.",
           "Independently define and prioritise requirements, business rules, user scenarios and acceptance criteria. Evolve the product from user feedback.",
           "Design CRM workflows for partners, customer requests, deals, tasks, documents and team communication. Verify business logic and changes before release."
-        ]
+        ],
+        "impact": "Built and launched a CRM for international logistics."
       },
       {
         "date": "04.2024 — 10.2026",
@@ -282,7 +300,8 @@ window.CONTENT={
           "Reviewed 15+ systems, documented 18+ processes and identified 30+ manual operations. Prepared AS-IS and GAP analysis, aligned TO-BE with business and IT, and developed evaluation criteria for 10+ vendors in RFI/RFP.",
           "Prepared and aligned requirements for order management, dispatch and accounting modules: rules, roles, statuses, integrations and acceptance criteria. The new TMS was at MVP stage when I left.",
           "Defined requirements for automated work orders and claims handling and supported delivery. For forwarding documents, identified sources for 30+ fields, mapped data and performed UAT. Documents went live across 55 DCs."
-        ]
+        ],
+        "impact": "TMS project spanning 55 distribution centers and 120+ integrations."
       },
       {
         "date": "02.2019 — 01.2024",
@@ -292,7 +311,8 @@ window.CONTENT={
           "Acted as Product Owner for Last Mile: a mobile app, dispatcher workspace and routing solution serving 300+ drivers. Managed requirements, backlog and priorities with an external development team.",
           "Specified delivery jobs, statuses, maps, GPS, documents, chat and integrations; tested and accepted changes.",
           "Supported TMS, WMS, ERP, YMS and a supplier portal, including distribution centre launches. Analysed data using SQL and Excel."
-        ]
+        ],
+        "impact": "Developed the Last Mile product for 300+ drivers."
       },
       {
         "date": "10.2017 — 01.2019",
@@ -301,7 +321,8 @@ window.CONTENT={
         "bullets": [
           "Contributed to Logistar implementations across WMS, TMS, OMS and SCM. Collaborated with the French engineering team and trained and worked at the Nantes headquarters.",
           "Analysed customer needs, specified requirements, tested changes and investigated logs. Supported system launches and user training."
-        ]
+        ],
+        "impact": "IT projects across OMS, WMS, TMS and SCM."
       },
       {
         "date": "01.2015 — 10.2017",
@@ -310,7 +331,8 @@ window.CONTENT={
         "bullets": [
           "Worked with Russian and international corporate clients on SSL certificates and internet security.",
           "Provided technical support and consultancy, negotiated in foreign languages, prepared proposals and supported deals."
-        ]
+        ],
+        "impact": "International experience in information security."
       }
     ],
     "achievements": [
@@ -328,11 +350,6 @@ window.CONTENT={
         "value": "55",
         "title": "Distribution centres",
         "text": "Automated forwarding instructions and receipts went live. My contribution: source identification for 30+ fields, data mapping and UAT."
-      },
-      {
-        "value": "+60%",
-        "title": "Customer response speed",
-        "text": "During the CRM pilot, customer response speed increased by 60%. Built the MVP myself with AI-assisted development and personally launched the CRM on the company server. The pilot has been running since October 2026: gathering feedback, refining requirements, prioritising improvements and checking features before release."
       },
       {
         "value": "+60%",
@@ -408,6 +425,18 @@ window.CONTENT={
           ]
         ]
       }
-    ]
+    ],
+    "desktopLabel": "Professional profile",
+    "desktopLead": "Lead Business Analyst / Product Owner",
+    "desktopDescription": "I combine business analysis and product thinking. I research business and user needs, test hypotheses, and bring digital products into use. I apply AI to analysis and MVP development.",
+    "desktopAboutSecond": "My experience spans international IT projects, large-scale implementations in national retail and building my own digital products.",
+    "desktopRoute0": "Business processes / user needs / problems / hypotheses",
+    "desktopRoute1": "TO-BE / requirements / user scenarios / prototypes / MVP",
+    "desktopRoute2": "Backlog / prioritization / managing development / AI tools",
+    "desktopRoute3": "Acceptance criteria / UAT / rollout / metrics / feedback",
+    "desktopHeroDetail": "",
+    "desktopLanguagesLabel": "Languages",
+    "desktopNative": "Native",
+    "desktopApproachLabel": "How I work"
   }
 };
